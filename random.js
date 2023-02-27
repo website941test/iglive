@@ -5,7 +5,7 @@ function showRandomNumber(){
 
     var interval = setInterval(function() { 
         if (time <= 3) { 
-           rand = Math.floor(Math.random() * (5 * 5 - 1 * 5) + 1 * 5) / (1*10) + 25.0;
+           rand = Math.floor(Math.random() * (6 * 6 - 1 * 6) + 1 * 6) / (1*10) + 25.0;
            if (rand % 1 == 0){
             
            }
@@ -16,5 +16,5 @@ function showRandomNumber(){
         else { 
            clearInterval(interval);
         }
-     }, 5000);
+     }, 4000);
 }
