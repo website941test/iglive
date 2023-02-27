@@ -123,7 +123,7 @@ html, body{
     grid-template-columns: 1fr 1fr;
     top: 9px;
     right: 55px;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     background-color: rgba(187, 187, 187, 0.5);
     border-radius: 4px;
