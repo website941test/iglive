@@ -83,7 +83,7 @@ html, body{
 
 .bottom{
     background-color: black;
-    z-index: 2;
+    z-index: 5;
     position: fixed;
     right: 0;
     left: 0;
@@ -161,4 +161,48 @@ html, body{
 
 .count img{
     max-width: 12px;
+}
+
+.reel {
+    z-index: 3;
+    position: fixed;
+    left: 10px;
+    bottom: 77px;
+    width: 99vw;
+    color: white;
+    max-width: 250px;
+}
+
+.comment {
+    margin-top: 10px;
+    display: flex;
+}
+
+.block{
+    margin: 0px;
+    display: inline-grid;
+}
+.name h1{
+    margin: 0px;
+    padding-bottom: 2px;
+}
+
+.comment h1 {
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 4px;
+    
+}
+
+.text h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin: 0px;
+}
+
+.pic img {
+    border-radius: 100%;
+    max-width: 28px;
+    padding: 3px;
 }
