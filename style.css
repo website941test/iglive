@@ -101,7 +101,7 @@ html, body{
 
 
 .live{
-    top: 6px;
+    top: 4px;
     position: fixed;
     z-index: 1;
     right: 120px;
