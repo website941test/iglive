@@ -74,6 +74,7 @@ html, body{
     right: 0;
     left: 0;
     bottom: -2;
+    height: 9vh;
 }
 
 .bottom img{
