@@ -90,11 +90,60 @@ html, body{
 }
 
 .topG {
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     width: 100%;
     height: 15vh;
     top: 0;
     background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
 }
-  
+
+
+.live{
+    top: 4px;
+    position: absolute;
+    z-index: 1;
+    right: 120px;
+}
+
+.live img{
+    max-width: 13vw;
+}
+
+.viewers{
+    position: absolute;
+    top: 2px;
+    width: 100%;
+}
+
+.count{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    top: 9px;
+    right: 55px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(187, 187, 187, 0.5);
+    border-radius: 4px;
+    color: black;
+    padding-left: 4;
+    padding-right: 4;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 45px;
+}
+
+.count h1{
+    padding: 0px;
+    font-size: 12px;
+}
+
+.counst span{
+    padding: 0px;
+    font-size: 12px;
+}
+
+.count img{
+    max-width: 12px;
+}

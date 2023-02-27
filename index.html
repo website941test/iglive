@@ -9,8 +9,21 @@
 
 		<!-- Link to main style sheet -->
 		<link rel="stylesheet" href="style.css"> 
+
+		<script src="https://randojs.com/1.0.0.js"></script>
+		<script src="random.js"></script> 
 	</head>
-	<body>
+	<body onload="showRandomNumber();">
+
+		<div class="viewers">
+			<div class="live">
+				<img src="img/main/right live.png" alt="">
+			</div>
+			<div class="count">
+				<img src="img/main/eye.png" alt="">
+				<h1> <span id="myNumber"></span>k</h1>
+			</div>
+		</div>
 
         <div class="topG">
             <span></span>
